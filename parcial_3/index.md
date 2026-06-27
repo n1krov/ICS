@@ -1,0 +1,66 @@
+
+
+- ## UNIDAD III
+    - [x] Manifiesto Ágil
+    - [x] Historias de Usuarios (US)
+    - [ ] Temas-Épicas-US-Tareas
+    - [ ] Criterios de aceptación/Pruebas de Aceptación
+    - [ ] ¿Cuándo se obtienen las US?
+    - [ ] MÉTODO INVEST
+    - [ ] Tips para escribir buenas US
+    - [ ] User stories’ BAD SMELLS
+    - [ ] Mapas de US
+    - [ ] ¿Cómo hacemos un Mapa de Historia de Usuarios?
+    - [ ] Priorización
+    - [ ] Métodos para priorizar US
+    - [ ] Producto mínimo viable (MVP)
+    - [ ] Estimación
+    - [ ] Puntos de historia
+    - [ ] PLANNING POKER
+    - [ ] La estimación y la probabilidad
+    - [ ] Velocidad del Equipo
+    - [ ] Seguimiento
+    - [ ] Estimación por ANALOGÍA
+    - [ ] SCRUM
+        - [ ] Pilares Empíricos de SCRUM (Principios)
+        - [ ] Valores de SCRUM
+        - [ ] Roles de SCRUM (Personas)
+        - [ ] Necesidades
+        - [ ] Tiempo
+        - [ ] Beneficios de SCRUM
+    - [ ] KANBAN
+        - [ ] Valores de Kanban
+        - [ ] Principios de Kanban
+        - [ ] Prácticas de Kanban
+        - [ ] Tablero Kanban
+    - [ ] EXTREME PROGRAMMING (XP)
+        - [ ] Valores
+        - [ ] Principios
+        - [ ] Prácticas
+        - [ ] Actividades Básicas (4)
+        - [ ] ¿Qué entiende XP como un proyecto?
+        - [ ] Centrarse en el alcance
+        - [ ] Curvas de costo y cambio (Boehm->Beck)
+        - [ ] 7 Lecciones aprendidas sobre Pair Programming
+        - [ ] Lecciones aprendidas gracias a XP
+    - [ ] CRYSTAL CLEAR
+        - [ ] Las 7 propiedades esenciales
+        - [ ] Estrategias y técnicas destacadas
+    - [ ] THE HEART OF AGILE
+    - [ ] AGILE MODELING
+    - [ ] COMPARATIVA ENTRE PROPUESTAS
+
+- ## UNIDAD IV
+    - [ ] TESTING
+        - [ ] Técnicas de Prueba
+        - [ ] Estrategias de Prueba
+        - [ ] Proceso de Depuración
+        - [ ] Automatización de Pruebas
+    - [ ] CALIDAD
+        - [ ] Calidad en Agilidad
+        - [ ] Calidad del PROCESO
+        - [ ] Calidad del PRODUCTO
+        - [ ] Calidad de las PERSONAS
+        - [ ] Factores de calidad de MCCALL
+        - [ ] A nivel de organización
+        - [ ] Modelos de calidad de sw
