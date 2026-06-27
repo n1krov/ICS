@@ -1,6 +1,6 @@
 
 # archiivos .pdf
-*.pdf
+# *.pdf
 
 # directorio obsidian
 .obsidian/
