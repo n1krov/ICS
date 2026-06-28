@@ -3,7 +3,7 @@
 - ## UNIDAD III
     - [x] Manifiesto Ágil
     - [x] Historias de Usuarios (US)
-    - [ ] Temas-Épicas-US-Tareas
+    - [x] Temas-Épicas-US-Tareas
     - [ ] Criterios de aceptación/Pruebas de Aceptación
     - [ ] ¿Cuándo se obtienen las US?
     - [ ] MÉTODO INVEST
