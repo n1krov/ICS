@@ -4,21 +4,21 @@
     - [x] Manifiesto Ágil
     - [x] Historias de Usuarios (US)
     - [x] Temas-Épicas-US-Tareas
-    - [ ] Criterios de aceptación/Pruebas de Aceptación
-    - [ ] ¿Cuándo se obtienen las US?
-    - [ ] MÉTODO INVEST
-    - [ ] Tips para escribir buenas US
-    - [ ] User stories’ BAD SMELLS
-    - [ ] Mapas de US
-    - [ ] ¿Cómo hacemos un Mapa de Historia de Usuarios?
-    - [ ] Priorización
-    - [ ] Métodos para priorizar US
-    - [ ] Producto mínimo viable (MVP)
-    - [ ] Estimación
-    - [ ] Puntos de historia
-    - [ ] PLANNING POKER
-    - [ ] La estimación y la probabilidad
-    - [ ] Velocidad del Equipo
+    - [x] Criterios de aceptación/Pruebas de Aceptación
+    - [x] ¿Cuándo se obtienen las US?
+    - [x] MÉTODO INVEST
+    - [x] Tips para escribir buenas US
+    - [x] User stories’ BAD SMELLS
+    - [x] Mapas de US
+    - [x] ¿Cómo hacemos un Mapa de Historia de Usuarios?
+    - [x] Priorización
+    - [x] Métodos para priorizar US
+    - [x] Producto mínimo viable (MVP)
+    - [x] Estimación
+    - [x] Puntos de historia
+    - [x] PLANNING POKER
+    - [x] La estimación y la probabilidad
+    - [x] Velocidad del Equipo
     - [ ] Seguimiento
     - [ ] Estimación por ANALOGÍA
     - [ ] SCRUM
