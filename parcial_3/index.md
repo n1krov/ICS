@@ -52,10 +52,10 @@
 
 - ## UNIDAD IV
     - [ ] TESTING
-        - [ ] Técnicas de Prueba
-        - [ ] Estrategias de Prueba
-        - [ ] Proceso de Depuración
-        - [ ] Automatización de Pruebas
+        - [x] Técnicas de Prueba
+        - [x] Estrategias de Prueba
+        - [x] Proceso de Depuración
+        - [x] Automatización de Pruebas
     - [ ] CALIDAD
         - [ ] Calidad en Agilidad
         - [ ] Calidad del PROCESO

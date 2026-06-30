@@ -63,6 +63,65 @@ header-includes:
 * **Mock**: define **expectativas** de llamadas y las hace cumplir automáticamente.
 * **Fake**: versión **funcional simplificada** de un componente real.
 
+
+
+---
+
+Al principio, todos los **Test Doubles** (dobles de prueba) parecen lo mismo porque su objetivo general es el mismo: **reemplazar un objeto real en tus pruebas** para que no tengas que usar la base de datos real, una API externa o un servicio lento.
+
+Pensalo como los dobles de riesgo en las películas. El actor principal (tu código a probar) no va a saltar de un auto en movimiento; mandamos a un doble.
+
+
+### 1. Fake (El "Farsante")
+
+Un **Fake** es un objeto que realmente funciona y tiene lógica interna, pero usa un **atajo simplificado** que no sirve para producción.
+
+- **El ejemplo típico:** En lugar de usar una base de datos real (como PostgreSQL o MongoDB), creás un Fake que guarda los datos en una simple lista en memoria (`List` o `Array`).
+    
+- **Cuándo se usa:** Cuando necesitás que el sistema se comporte como si tuviera la dependencia real, pero de forma rápida y ligera.
+    
+
+### 2. Stub (El "Simulador de Respuestas")
+
+Un **Stub** no tiene lógica. Solo sirve para **devolver respuestas preconfiguradas** (enlatadas) cuando tu código le hace una pregunta.
+
+- **El ejemplo típico:** Necesitás probar qué pasa si una API del clima dice que está lloviendo. El Stub siempre va a devolver `"Lluvia"`, sin importar nada más. No calcula nada, no busca nada; solo dice lo que le programaste que diga.
+    
+- **Cuándo se usa:** Para proveer datos de entrada a la unidad que estás probando.
+    
+
+### 3. Spy (El "Espía")
+
+Un **Spy** es como un Stub, pero además de dar respuestas, **registra en secreto qué hicieron con él**. Anota cuántas veces lo llamaron, con qué argumentos, etc.
+
+- **El ejemplo típico:** Querés probar si el sistema envía un mail de bienvenida. El Spy simula el servicio de mail, pero guarda internamente: _"Me llamaron 1 vez con el correo 'juan@email.com'"_. Después, en tu test, le preguntás al Spy: "¿Te llamaron con el mail de Juan?".
+    
+- **Cuándo se usa:** Cuando querés verificar el comportamiento o el historial de uso sin llegar a la rigidez de un Mock.
+    
+
+### 4. Mock (El "Fiel de la Balanza" / El Examinador)
+
+Un **Mock** es muy parecido al Spy, pero con una diferencia clave: **él mismo sabe lo que tiene que pasar y falla el test si no ocurre**. Vos le configurás las expectativas _antes_ de correr la prueba.
+
+- **El ejemplo típico:** Le decís al Mock: _"Espero que el método `guardarUsuario()` sea llamado exactamente 1 vez con los datos de Pedro"_. Si tu código llama al método dos veces, o no lo llama, el Mock hace que el test falle automáticamente.
+    
+- **Cuándo se usa:** Cuando te interesa asegurar la interacción exacta entre tu código y la dependencia (el "cómo" se llega al resultado).
+    
+
+### Resumen rápido para fijar conceptos
+
+|**Tipo de Doble**|**¿Tiene lógica real?**|**¿Qué hace principalmente?**|
+|---|---|---|
+|**Fake**|Sí (pero simplificada)|Reemplaza un sistema complejo (ej. base de datos en memoria).|
+|**Stub**|No|Devuelve datos fijos (respuestas enlatadas).|
+|**Spy**|No|Recuerda cómo fue usado (mide interacciones).|
+|**Mock**|No|Verifica que se cumplan reglas estrictas de interacción.|
+
+
+----
+
+
+
 # Relación de los tests doubles con la pirámide de pruebas
 
 \begin{table}[H]
